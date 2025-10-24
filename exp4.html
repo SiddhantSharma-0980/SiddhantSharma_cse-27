@@ -10,7 +10,8 @@
     <form action="#" method="post">
 
         <!--Personal Details-->
-
+<fieldset>
+    <legend>Personal Details</legend>
 
         <label for="Name">Full Name:</label>
         <input type="text" id="Name" name="Name" required><br><br>
@@ -19,9 +20,12 @@
         <input type="email" id="email" name="email" required><br><br>
 
         <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required><br><br>
+        <input type="tel" id="phone" name="phone" required>
+</fieldset><br><br>
 
         <!--Booking Details-->
+    <fieldset>
+            <legend>Booking Details</legend>
 
         <label for="checkin">Check-in Date:</label>
         <input type="date" id="checkin" name="checkin" required><br><br>
@@ -33,14 +37,18 @@
         <select id="room" name="room" required>
             <option value="single">Single Room</option>
             <option value="double">Double Room</option>
-            <option value="suite">Suite</option>
-        </select><br><br>
+            <option value="suite">Suite</option> </select><br><br>
 
         <label for="guests">Number of guests:</label>
-        <input type="number" id="guests" name="guests" min="1" max="10" required><br><br>
+        <input type="number" id="guests" name="guests" min="1" max="10" required>
+    </fieldset><br><br>
+
+    <fieldset>
+        <legend>Additional Services</legend>
 
         <label type="request">Special Requests:</label><br>
-        <textarea id="requests" name="requests" rows="4" cols="50"></textarea><br><br>
+        <textarea id="requests" name="requests" rows="4" cols="50"></textarea>
+        </fieldset><br><br>
         <!--Buttons-->
         <button type="submit">Book Now</button>
         <button type="reset">Reset</button>
