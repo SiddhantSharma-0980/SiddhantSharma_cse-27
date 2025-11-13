@@ -14,8 +14,8 @@ body{
 
 .inline-menu a{
     display: inline;
-    background-color: #24f544;
-    color: white;
+    background-color: #1d9730;
+    color: rgb(218, 17, 17);
     padding: 5px;
     margin: 5px;
     text-decoration: none;
@@ -23,7 +23,7 @@ body{
 
 .inline-block-menu a{
     display: inline-block;
-    background-color:bisque;
+    background-color:rgb(177, 16, 177);
     color: white;
     height: 50px;
     width: 120px;
@@ -43,7 +43,7 @@ body{
 
 .clear-example{
     clear: both;
-    background-color: #f4f4f4;
+    background-color: #81bacc;
     padding: 10px;
     margin-top: 20px;
     border: 1px solid #ccc;
