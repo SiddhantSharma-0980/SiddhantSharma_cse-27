@@ -55,3 +55,7 @@ button:hover{
     transform: scale(1.1); /* zoom in 10% */
 }
 
+button:active{
+    background-color: rgb(10, 194, 102);
+
+}
