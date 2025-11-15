@@ -48,3 +48,10 @@ button{
    border-radius: 5px;
 
 }
+
+button:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    transform: scale(1.1); /* zoom in 10% */
+}
+
