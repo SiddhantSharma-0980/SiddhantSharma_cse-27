@@ -27,3 +27,16 @@
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.shortn{
+    border: 1px solid   rgba(4, 42, 234, 0.721);
+    border-radius: 50%;
+    width: 80px;
+    height:70px ;
+    margin-left: 110px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    
+}
