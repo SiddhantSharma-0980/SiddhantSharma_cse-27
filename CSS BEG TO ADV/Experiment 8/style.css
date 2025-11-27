@@ -21,3 +21,9 @@
     box-shadow: 10px 10px 5px grey;
     
 }
+
+.para{
+    display:block;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
