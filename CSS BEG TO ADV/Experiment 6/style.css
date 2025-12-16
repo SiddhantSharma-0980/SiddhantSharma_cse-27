@@ -52,6 +52,7 @@ button{
 
 button:hover{
      transform: scale(1.2); /* zoom in 10% */
-    
+    cursor: pointer;
+
 }   
 
